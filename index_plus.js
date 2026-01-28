@@ -4,10 +4,10 @@
 const ACCOUNT = { //账号相关，安全性更高
 
   "user" : "admin", //博客后台用户名
-  "password" : "cfblog-plus", //博客后台密码
+  "password" : "admin", //博客后台密码
   "third_token" : "cfblog", //开放token，当前仅允许访问/admin/search.xml，/admin/sitemap.xml时可用，在cfblog_token的头信息中传递
-  "cacheZoneId":"935xxxxxxxxxxxx",//区域 ID
-  "cacheToken":"AQxxxxxxxx",//API token
+  "cacheZoneId":"15cc837acc982f1cc03f029ff14d8db3",//区域 ID
+  "cacheToken":"LD0WyySb_wrnlyLF7_NhPL4E8IrImd9U42SR-GHA",//API token
 
   "kv_var": this['CFBLOG'],//workers绑定kv时用的变量名
 }
@@ -15,9 +15,9 @@ const ACCOUNT = { //账号相关，安全性更高
 const OPT = { //网站配置
 
   /*--前台参数--*/
-  "siteDomain" : "域名",// 域名(不带https 也不带/)
-  "siteName" : "CFBLOG-Plus",//博客名称
-  "siteDescription":"CFBLOG-Plus" ,//博客描述
+  "siteDomain" : "joel.eu.org",// 域名(不带https 也不带/)
+  "siteName" : "Joel Blog",//博客名称
+  "siteDescription":"Joel Blog" ,//博客描述
   "keyWords":"cloudflare,KV,workers,blog",//关键字
   "logo":"https://cdn.jsdelivr.net/gh/Arronlong/cfblog-plus@master/themes/JustNews/files/logo2.png",//JustNews主题的logo
 
