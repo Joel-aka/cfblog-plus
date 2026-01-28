@@ -30,7 +30,7 @@ const OPT = { //网站配置
   "recentlySize" : 6,//最近文章数
   "recentlyType" : 1,//最近文章类型：1-按创建时间倒序（按id倒序），2-按修改时间排序
   "readMoreLength":150,//阅读更多截取长度
-  "cacheTime" : 60*60*24*2, //文章在浏览器的缓存时长(秒),建议=文章更新频率
+  "cacheTime" : 60, // 缓存1分钟，这意味着发布后最多等1分钟就能看到
   "html404" : `<b>404</b>`,//404页面代码
   "codeBeforHead":`
   <script src="https://cdn.staticfile.org/jquery/2.2.4/jquery.min.js"></script>
